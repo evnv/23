@@ -1,0 +1,18 @@
+a = 5
+print(a, "is of type", type(a))
+
+a = 2.0
+print(a, "is of type", type(a))
+
+a = 1+2j
+print(a, "is complex number?", isinstance(1+2j,complex))
+
+>>> a = 1234567890123456789
+>>> a
+1234567890123456789
+>>> b = 0.1234567890123456789
+>>> b
+0.12345678901234568
+>>> c = 1+2j
+>>> c
+(1+2j)
